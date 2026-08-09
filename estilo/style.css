@@ -53,6 +53,9 @@ nav > a {
 
 main {
 
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
     background-color: white;
 }
 
@@ -61,7 +64,6 @@ body {
 
     background-color: #8bffa630;
     font-family: var(--fonte-padrao);
-    text-align: center;
 }
 
 header > h1 {
@@ -79,6 +81,19 @@ main h1 {
 main h2 {
 
     font-family: var(--fonte-android);
+}
+
+main img {
+
+    width: 100%;
+    margin: auto;
+}
+
+main iframe {
+
+    display: block;
+    margin: auto;
+    width: 60%;
 }
 
 footer {
