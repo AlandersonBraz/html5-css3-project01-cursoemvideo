@@ -32,7 +32,7 @@
 header {
 
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
-    padding: 50px;
+    padding: 50px 50px 35px 50px;
 }
 
 header > h1 {
@@ -64,7 +64,7 @@ nav > a {
 nav > a:hover {
 
     background-color: var(--cor4);
-    font-size: 22px;
+    font-size: 23px;
     color: var(--cor0);
 }
 
@@ -89,6 +89,12 @@ body {
     text-align: center;
 }
 
+strong {
+
+    font-weight: bolder;
+    color: var(--cor3);
+}
+
 a.externo::after {
 
     content: '\00A0\1F517';
@@ -98,6 +104,7 @@ h1, h2, h3 {
 
     color: var(--cor3);
     font-size: 50px;
+    font-weight: normal;
     padding: 30px;
 }
 
@@ -126,12 +133,6 @@ main p {
     line-height: 2em;
 }
 
-strong {
-
-    font-weight: bolder;
-    color: var(--cor3);
-}
-
 main a {
 
     font-weight: bold;
@@ -157,6 +158,24 @@ main img.pqn {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+div.video {
+
+    background-color: var(--cor1);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe {
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 footer {
